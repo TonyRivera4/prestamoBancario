@@ -43,7 +43,7 @@ input{
   color: black;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 640px) {
   input{
     margin: 24px;
     width: 90%;
