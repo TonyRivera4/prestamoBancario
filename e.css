@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+*{
+  background-color: black;
+  color: gold;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+h1{
+  text-align: center;
+  display: none;
+  
+}
+
+
+
+form{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  margin: 12px;
+  border: 1px solid gold;
+  border-radius: 16px;
+  
+  
+}
+
+.calcular{
+  border-color: gold;
+  border-radius: 24px;
+  margin-top: 8px;
+}
+.calcular:hover{
+  background-color: gold;
+  color: black;
+}
+
+@media (max-width: 300px) {
+  input{
+    margin: 24px;
+    width: 90%;
+    height: 35px;
+    
+    
+    
+  }
+  h1{
+    text-align: center;
+    display: block;
+    
+  }
+  form{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
